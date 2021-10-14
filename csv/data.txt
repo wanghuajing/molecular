@@ -1,0 +1,40 @@
+ 1) minsssN                        0.098779
+ 2) LipoaffinityIndex              0.093866
+ 3) MDEC-23                        0.074830
+ 4) maxHsOH                        0.051740
+ 5) MLFER_A                        0.026212
+ 6) minHsOH                        0.025690
+ 7) MLogP                          0.024853
+ 8) C1SP2                          0.024152
+ 9) BCUTc-1l                       0.023981
+10) maxssO                         0.023471
+11) VC-5                           0.016772
+12) nHBAcc                         0.016628
+13) minHBint5                      0.014304
+14) minsOH                         0.011220
+15) hmin                           0.010603
+16) ATSc2                          0.009316
+17) BCUTp-1h                       0.007027
+18) XLogP                          0.006740
+19) WTPT-5                         0.006606
+20) TopoPSA                        0.006599
+21) minHBint10                     0.006360
+22) ATSc3                          0.006149
+23) MDEC-33                        0.006135
+24) ETA_BetaP_s                    0.005809
+25) SHBint10                       0.005181
+26) maxdssC                        0.005122
+27) CrippenLogP                    0.005042
+28) MDEO-12                        0.005028
+29) maxHBint5                      0.004994
+30) SdssC                          0.004982
+31) maxHBint8                      0.004226
+32) maxsssN                        0.004130
+33) SHsOH                          0.004067
+34) BCUTc-1h                       0.004000
+35) ETA_Shape_Y                    0.003777
+36) minHBa                         0.003753
+37) ATSc5                          0.003666
+38) WTPT-4                         0.003650
+39) maxsOH                         0.003634
+40) SwHBa                          0.003616

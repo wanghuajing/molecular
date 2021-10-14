@@ -13,7 +13,7 @@ def forest():
     x, y = df.iloc[:, 1:].values, df.iloc[:, 0].values
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=0)
     feat_labels = df.columns[1:]
-    forest = RandomForestRegressor(n_estimators=10000, random_state=0, n_jobs=-1)
+    forest = RandomForestRegressor(n_estimators=1000, random_state=0, n_jobs=-1)
     forest.fit(x_train, y_train)
 
     importances = forest.feature_importances_
