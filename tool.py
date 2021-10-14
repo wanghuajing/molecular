@@ -15,14 +15,15 @@ def forest():
     feat_labels = df.columns[1:]
     forest = RandomForestRegressor(n_estimators=1000, random_state=0, n_jobs=-1)
     forest.fit(x_train, y_train)
-
+    data = pd.DataFrame(columns=['name'])
     importances = forest.feature_importances_
     indices = np.argsort(importances)[::-1]
     for f in range(x_train.shape[1]):
-        print("%2d) %-*s %f" % (f + 1, 30, feat_labels[indices[f]], importances[indices[f]]))
+        data = data.append({'name': feat_labels[indices[f]]}, ignore_index=True)
+    data.to_csv('data.csv', index=False)
 
 
-def process():#
+def process():  #
     path = 'csv/'
     df = pd.read_excel(path + 'Molecular_all.xlsx')
     df.to_csv(path + 'Molecular_all.csv', index=False)
@@ -31,10 +32,11 @@ def process():#
         if df[n].std() == 0:
             df.pop(n)
 
+
 def correlation():
     path = 'csv/Molecular_all.csv'
     df = pd.read_csv(path)
-    col=df.columns
+    col = df.columns
     for n in col:
         pass
     a = 1
